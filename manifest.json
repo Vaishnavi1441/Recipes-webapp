@@ -3,5 +3,16 @@
     "short_name":"dcode PWA example",
     "start_url":".",
     "background_color": "aliceblue",
-    "theme_color": "yellow"
+    "theme_color": "yellow",
+    "display": "standalone"
+    "icons": {
+        "src":"images/logo.png",
+        "sizes":"192x192",
+        "type": "image/png"
+    },
+    {
+        "src":"images/logo.png",
+        "sizes":"512x512",
+        "type": "image/png"
+    }
 }
