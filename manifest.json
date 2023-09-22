@@ -1,0 +1,7 @@
+{
+    "name":"dcode PWA example",
+    "short_name":"dcode PWA example",
+    "start_url":".",
+    "background_color": "aliceblue",
+    "theme_color": "yellow"
+}
