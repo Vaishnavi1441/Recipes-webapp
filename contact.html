@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>Contact</title>
     <!-- favicon -->
-    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" >
     <!-- normalize -->
-    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="normalize.css" >
     <!-- font-awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <!-- main css -->
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="main.css" >
+    <link rel="manifest" href="manifest.json">
     <script src="app.js"></script>
+        <!-- ios support -->
+        <link rel="apple-touch-icon" href="logo144x144.png">
+        <meta name="apple-mobile-web-app-status-bar" content="#aa7700">
+        <meta name="theme-color" content="#FFE1C4">
   </head>
   <body>
     <!-- nav  -->
@@ -148,5 +150,7 @@
       const contactForm = document.querySelector(".contact-form");
       contactForm.addEventListener("submit", handleFormSubmit);
     </script>
+    <script src="app.js"></script>
+    <script src="app1.js"></script>
   </body>
 </html>
