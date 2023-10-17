@@ -1,2 +1,3 @@
 # Recipes-webapp
-This is a Recipe website which has a app to download on any device.
+This is a Recipe website which has a PWA app to download on any device.
+
